@@ -1,9 +1,13 @@
 # stay_awake
 ------------------------------------------------------------------------------------------------
 Script Purpose:
-Keeps your PC from falling asleep. Setup and config check included for Mint/Ubuntu/Debian/Kali. 
+Keeps your PC from falling asleep, no matter what your system settings are set to.
+Setup and config check included for Mint/Ubuntu/Debian/Kali. 
 This repository is inspired by https://github.com/elb5465/noSleep with bugfixes and a readme. 
-It works by moving mouse a tiny bit periodically. Requires python3 and pip3. 
+It works by moving mouse a little bit periodically (default 45s).
+Alternatively, it can press escape key.
+Requires python3 and pip3. 
+This script is perfect for reading ebooks, forums, art, etc. 
 
 SETUP[DEBIAN-BASED]:
 
@@ -24,3 +28,15 @@ In order to run as a daemon, run stay_awake&
 
 RECOMPILING
 If you choose to make changes to this code, simply edit stay_awake.py and re-run ./configure
+
+WARNING:
+Leaving this script running poses security risks, especially in public.
+Also, your mouse will be jerked periodically, so if you happen to click
+during this time, results can be unpredictable. If mouse jerking is a 
+concern to you, or you just don't want the mouse to shake, then comment
+lines 10 and 11 of stay_awake.py, and uncomment line 12. 
+Some apps may not be friendly with the escape key press, so you can sub
+any key that you want into line into pag.press('KEY') in line 12. 
+
+Written by:
+The legendary hacker K0K0$HA
