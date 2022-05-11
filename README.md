@@ -7,7 +7,7 @@ It works by moving mouse a tiny bit periodically. Requires python3 and pip3.
 
 SETUP[DEBIAN-BASED]:
 
-sudo bash ./configure.sh
+sudo bash ./config.sh
 
 You need python3 installed on your system. Your system also needs python3-pip and python3-tk. 
 
