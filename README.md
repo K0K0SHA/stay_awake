@@ -1,4 +1,4 @@
-# stay_awake
+# stay_awake (Coffee for Linux)
 ------------------------------------------------------------------------------------------------
 Script Purpose:
 Keeps your PC from falling asleep, no matter what your system settings are set to.
@@ -37,6 +37,7 @@ concern to you, or you just don't want the mouse to shake, then comment
 lines 10 and 11 of stay_awake.py, and uncomment line 12. 
 Some apps may not be friendly with the escape key press, so you can sub
 any key that you want into line into pag.press('KEY') in line 12. 
+Most things in Linux do not care about the escape key, though.
 
 Written by:
 The legendary hacker K0K0$HA
