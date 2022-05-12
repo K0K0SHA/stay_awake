@@ -14,6 +14,8 @@ SETUP[DEBIAN-BASED]:
 sudo bash ./config.sh
 
 You need python3 installed on your system. Your system also needs python3-pip and python3-tk. 
+If you don't want to use sudo (I don't judge), you still have to ensure the dependencies are
+installed already. If that is the case, then copy the python script to /usr/bin and done.
 
 SETUP ON WINDOWS
 
