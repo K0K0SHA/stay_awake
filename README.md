@@ -1,8 +1,7 @@
-# stay_awake (Coffee for Linux)
+# stay_awake is now cross-platform!!! (Coffee for Linux + Windows + Mac + Android) 
 ------------------------------------------------------------------------------------------------
 Script Purpose:
 Keeps your PC from falling asleep, no matter what your system settings are set to.
-Setup and config check included for Mint/Ubuntu/Debian/Kali. 
 This repository is inspired by https://github.com/elb5465/noSleep with bugfixes and a readme. 
 It works by moving mouse a little bit periodically (default 45s).
 Alternatively, it can press escape key.
