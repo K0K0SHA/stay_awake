@@ -1,1 +1,1 @@
-python3 ./stay_awake.py
+python3 .\stay_awake.py
